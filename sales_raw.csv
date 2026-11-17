@@ -1,0 +1,11 @@
+order_id,date,branch,customer,product,qty,price
+1001,03-11-2026,Chennai,Ravi Kumar,Laptop,2,55000
+1002,2026/11/03,chennai,Anita,Mouse,5,450
+1003,04-11-2026,Coimbatore ,Suresh,Laptop,1,55000
+1004,04-11-2026,Madurai,,Keyboard,3,1200
+1002,2026/11/03,chennai,Anita,Mouse,5,450
+1005,05-11-2026,Bangalore,Meena,laptop,one,55000
+1006,05-11-2026,Coimbatore,Karthik,Monitor,2,
+1007,06-11-2026,Hyderabad,Farah,Mouse,-4,450
+1008,06-11-2026,MADURAI,Vijay,Monitor,1,12000
+1009,07-11-2026,Chennai,Deepa,Keyboard,2,Rs.1200
