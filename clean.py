@@ -15,3 +15,8 @@ print("Branches before:", df["branch"].unique())
 df["branch"] = df["branch"].str.strip().str.title()
 df["product"] = df["product"].str.strip().str.title()
 print("Branches after:", df["branch"].unique())
+
+d1 = pd.to_datetime(df["date"],format="%d-%m-%Y",errors="coerce")
+d2=pd.to_datetime(df["date"],format="%Y/%m/%d",errors="coerce")
+df["date"]=d1.fillna(d2)
+print(df["date"])
