@@ -9,4 +9,9 @@ print("duplicate row found:")
 print(dupes)
 
 df = df.drop_duplicates()
-print("Rows after removing duplicates:", len(df))
+print("Rows after removing duplicates:", len(df)) 
+
+print("Branches before:", df["branch"].unique())
+df["branch"] = df["branch"].str.strip().str.title()
+df["product"] = df["product"].str.strip().str.title()
+print("Branches after:", df["branch"].unique())
